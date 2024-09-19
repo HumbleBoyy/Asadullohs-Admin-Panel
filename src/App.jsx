@@ -1,9 +1,13 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Dashboard from './Componets/Dashboard/Dashboard'
 
 const App = () => {
   return (
     <>
-      Asadullohs Admin Panel
+      <Routes>
+         <Route path='/dashBoard' element={<Dashboard/>}/>
+      </Routes>
     </>
   )
 }
