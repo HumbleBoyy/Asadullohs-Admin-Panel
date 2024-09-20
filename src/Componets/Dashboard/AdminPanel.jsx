@@ -1,5 +1,4 @@
-
-
+import {auth} from "../../firebase"
 const AdminPanel = () => {
     
   return (
@@ -11,7 +10,7 @@ const AdminPanel = () => {
             <input type="text" placeholder='Project Domain Link'/>
             <input type="text" placeholder='GitHub Reposotory Link'/>
             <input type="file" placeholder='image'/>
-            <button>Sign Out</button>
+            <button onClick={()=> auth.signOut()}>Sign Out</button>
             <button type='submit'>Submit</button>
           </form>
       </div>
