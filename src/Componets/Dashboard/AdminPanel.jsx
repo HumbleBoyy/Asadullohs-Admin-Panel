@@ -1,8 +1,4 @@
-import React, { useRef } from 'react'
-import { auth, firestore, storage } from '../../firebase'
-import { getDownloadURL, ref, uploadBytes } from 'firebase/storage';
-import { addDoc } from 'firebase/firestore';
-import { collection } from 'firebase/firestore/lite';
+
 
 const AdminPanel = () => {
     
