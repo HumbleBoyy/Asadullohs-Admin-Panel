@@ -66,7 +66,7 @@ const Home = () => {
         </div>
       <form ref={form} onSubmit={submitProject}>
           <p><input type='text' placeholder='Project name' className='projectinputs'/></p>
-          <p><textarea type='text' placeholder='Descrtiption'/></p>
+          <p><textarea type='text' placeholder='Descrtiption' className='projectinputs textArea'/></p>
           <p><input type='text' placeholder='https://URL' className='projectinputs'/></p>
           <p><input type='text' placeholder='https://URL Github' className='projectinputs'/></p>
           <p><input type='file' placeholder='choose' className='uploadFile'/></p> 
